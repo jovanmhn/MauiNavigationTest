@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiNavigationTest.Pages.ThirdPage"
+             Title="ThirdPage">
+
+    <Grid ColumnDefinitions="1*,3*,1*">
+        <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+            
+
+        <Label 
+            Text="This is my third page. It ends here. Back (android or navigation) should take you to the second page."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Grid.Column="1"/>
+        <Label 
+            Text="But it doesn't, and its driving me insane."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Grid.Column="1"/>
+            <Label 
+            Text="Or maybe the question is, why does the back navigation work by default from the second to the first page?"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Grid.Column="1"/>
+            <Button Margin="0,20,0,0" Text="Manual navigation that works!" Clicked="Button_Clicked"></Button>
+
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>

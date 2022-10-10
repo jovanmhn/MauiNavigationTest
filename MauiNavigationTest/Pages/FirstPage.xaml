@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiNavigationTest.Pages.FirstPage"
+             Title="FirstPage">
+    <Grid ColumnDefinitions="1*,3*,1*">
+        <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+            <Label 
+            Text="This is my first page! This should be the starting page after login, and navigating back should not be possible. And it isn't, because I added the // before the route name!
+                So far, so good!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Button Text="Go to page 2!" Clicked="Button_Clicked"></Button>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

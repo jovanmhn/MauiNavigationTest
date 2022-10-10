@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiNavigationTest.Pages.LoginPage"
+             Title="LoginPage">
+    <Grid ColumnDefinitions="1*,3*,1*">
+        <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+            <Label 
+            Text="This is my login form, navigating from this form should prevent you from ever going back, and this should be displayed only once!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Button Text="Go to the first page!"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="Button_Clicked"></Button>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

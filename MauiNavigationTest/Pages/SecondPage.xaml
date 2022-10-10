@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiNavigationTest.Pages.SecondPage"
+             Title="SecondPage">
+    <Grid ColumnDefinitions="1*,3*,1*">
+        <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+
+
+            <Label 
+            Text="This is my second page. Notice how both the nav back button, as well as the android back button take you back to the first page. Makes perfect sense so far."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Grid.Column="1"/>
+            <Label 
+            Text=""
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            Grid.Column="1"/>
+
+            <Button Text="Go to the third and final page!" VerticalOptions="Center" HorizontalOptions="Center" Clicked="Button_Clicked"></Button>
+        </VerticalStackLayout>
+    </Grid>
+    
+</ContentPage>
