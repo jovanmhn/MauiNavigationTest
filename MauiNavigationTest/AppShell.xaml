@@ -11,17 +11,14 @@
         Title="Login"
         ContentTemplate="{DataTemplate pages:LoginPage}"
         Route="LoginPage"/>
-
+    
+    <!--the reason I have another shell content item here, is it wont allow me to go to //FirstPage after login unless it exists here-->
     <ShellContent
         Title="First"
         ContentTemplate="{DataTemplate pages:FirstPage}"
         Route="FirstPage">
     </ShellContent>
     
-    <ShellContent
-        Title="Second"
-        ContentTemplate="{DataTemplate pages:SecondPage}"
-        Route="SecondPage">
-    </ShellContent>
+
 
 </Shell>

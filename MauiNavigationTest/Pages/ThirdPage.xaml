@@ -9,12 +9,12 @@
             
 
         <Label 
-            Text="This is my third page. It ends here. Back (android or navigation) should take you to the second page."
+            Text="This is my third page. It ends here. Back (android or nav bar one) should take you to the second page."
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             Grid.Column="1"/>
         <Label 
-            Text="But it doesn't, and its driving me insane."
+            Text="But they dont, and its driving me insane."
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             Grid.Column="1"/>
@@ -23,7 +23,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             Grid.Column="1"/>
-            <Button Margin="0,20,0,0" Text="Manual navigation that works!" Clicked="Button_Clicked"></Button>
+            <Button Margin="0,20,0,0" Text="This manual navigation works!" Clicked="Button_Clicked"></Button>
 
         </VerticalStackLayout>
     </Grid>

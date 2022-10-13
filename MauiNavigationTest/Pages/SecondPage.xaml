@@ -8,7 +8,7 @@
 
 
             <Label 
-            Text="This is my second page. Notice how both the nav back button, as well as the android back button take you back to the first page. Makes perfect sense so far."
+            Text="This is my second page. Notice how both the nav back button, as well as the android back button take you back to the first page. None of it is coded manually and its amazing. Makes perfect sense so far."
             VerticalOptions="Center" 
             HorizontalOptions="Center" 
             Grid.Column="1"/>

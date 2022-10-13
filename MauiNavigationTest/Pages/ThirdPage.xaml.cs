@@ -9,6 +9,7 @@ public partial class ThirdPage : ContentPage
 
 	private async void Button_Clicked(object sender, EventArgs e)
 	{
-		await Shell.Current.GoToAsync("//FirstPage/SecondPage");
+        //await Shell.Current.GoToAsync(".."); //<- doesnt work either! :(
+        await Shell.Current.GoToAsync("//FirstPage/SecondPage"); //<- this one does
 	}
 }
